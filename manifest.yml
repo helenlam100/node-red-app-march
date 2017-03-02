@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: node-red-app-march
+  host: node-red-app-march
+  disk_quota: 1024M
+  services:
+  - node-red-app-march-cloudantNoSQLDB
+  - node-red-app-march-iotf-service
